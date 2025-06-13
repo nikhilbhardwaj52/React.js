@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.img{
+    position: relative;
+    left:60px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.option,.o{
+    padding-top: 70px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dot,.op{
+    margin-left:30px;
+    height:40px;
+    border:none;
+    background-color: rgb(253, 251, 251);
+    font-size: large;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.search{
+    height:20px;
+    width:400px;
+    margin-top: 80px;
+    
+}
+.o{
+    position: relative;
+    right:20px;
+}
+.bodyy,.oo{
+
+    background-color: rgb(172, 168, 168);
+    
+}
+
+.card{
+    background-color:rgb(158, 81, 81);
+    color: white;
+    margin-left: 15px;
+    margin-top: 14px;
+    
+    
+}
+.bas{
+    padding: 20px;
+}
+.im{
+    padding: 10px;
+}
