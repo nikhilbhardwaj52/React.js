@@ -1,62 +1,55 @@
 body{
-    margin:0px;
-    padding: 0px;
+    margin: 0px;
+    padding:0px;
     box-sizing: border-box;
 }
 
 .heading{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    margin-bottom: 20px;
 }
-.img{
-    position: relative;
-    left:60px;
-    margin-top: 20px;
-    padding-bottom: 30px;
-}
-.option,.o{
-    padding-top: 70px;
-    margin-bottom: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.dot,.op{
-    margin-left:30px;
-    height:40px;
-    border:none;
-    background-color: rgb(253, 251, 251);
-    font-size: large;
-    padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-.search{
-    height:20px;
-    width:400px;
-    margin-top: 80px;
-    
-}
-.o{
+.images{
     position: relative;
-    right:20px;
+    left: 60px;
+    top:10px;
 }
-.bodyy,.oo{
 
-    background-color: rgb(172, 168, 168);
-    
+.option{
+    padding-top: 30px;
+}
+
+.but , .pro{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+
+.searchbar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.Profile{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.middle{
+    background-color: rgb(246, 246, 241);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: center;
 }
 
 .card{
-    background-color:rgb(158, 81, 81);
+    background-color: rgb(28, 81, 28);
     color: white;
-    margin-left: 15px;
-    margin-top: 14px;
-    
-    
-}
-.bas{
-    padding: 20px;
-}
-.im{
-    padding: 10px;
 }
